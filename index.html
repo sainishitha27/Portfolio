@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset='utf-8'>
+	    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	    <title>MY PERSONAL PORTFOLIO</title>
+	    <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/fbd8ab69ad.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact us</a></li>
+                              
+                              
+                      
+                    </ul>
+                </nav>
+                <div class="header-text">
+                    <h1>Hi,<br>I'm <span>Sai Nishitha Yanjala</span></h1>
+				    <h2>Student at KITSW,Erragattugutta </h2>
+                </div>
+            </div>
+        </div>
+        <!----------------ABOUT--------------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="My Image.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1><br>
+                        <p> I'm Sainishitha Yanjala persuing B.Tech 3rd year in ECE branch at Kakatiya Institute of Technology and Science,Erragattugutta,WARANGAL <br><br>
+                            A student seeking an internship and a full-time opportunity in the field of Software Development after my Graduation</p> 
+
+                            <div class="tab-title">
+                                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                <p class="tab-links" onclick="opentab('education')">Education</p>
+                            </div>
+                            <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li><span><b>C</b></span></li><br>
+                                    <li><span><b>Python</b></span></li><br>
+                                    <li><span><b></b>Data Structures through C</b></span></li><br>
+                                    <li><span><b></b>Java</b></span></li><br>
+                                    <li><span><b></b>HTML & CSS</b></span></li><br>
+                                </ul>
+                            </div>
+                            <div class="tab-contents " id="education">
+                                <ul>
+                                    <li><span>2021-2025 (BTech)</span><br>KITSW,Erragattugutta ECE <br> 9.15</li>
+                                    <li><span>2019-2021 (Intermediate)</span><br>SR Junior College(MPC)<br>982</li>
+                                    <li><span>2018-2019 (SSC)</span><br>Chaithanya Model High School,Parkal<br>10.0</li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+        <!-- --------------Services-------------- -->
+	<div id="services">
+		<div class="container">
+			<h1 class="sub-title">My Services</h1>
+			<div class="services-list">
+				<div>
+					<h2>Technical skills</h2>
+					<ul>
+						<li>C</li><br>
+						<li>Data Structures through C</li><br>
+						<li>Java</li><br>
+						<li>HTML & CSS</li><br>
+					</ul>
+				</div>
+			<div>
+                <h2>Certifications</h2>
+			<ul>
+				<li><a href="#">Coursera Certificate on Programming for Everybody(Getting started with Python) </a></li>   
+                <li><a href="#">NPTEL Topper(2%) and earned Elite+Silver certificate on Introduction to Internet of Things</a></li>
+                <li><a href="#">Internshala certificate of training on VLSI Design</a></li>
+                <li><a href="#">Certificate of completion on HTML Essential Training through LinkedIn Learning</a></li>
+                <li><a href="#">Certificate of completion on Arduino Foundations through LinkedIn Learning</a></li>
+                <li><a href="#">Cisco Networking Academy Certificate on Introduction to Cybersecurity and Cybersecurity Essentials</a></li>     	                 
+			</ul><br>
+            </div>
+            
+           <div>
+                 <h2>Internships</h2>
+                 <ul>
+                 <li>Selected for TASK-6 weeks internship on FED 2023</li></ul><br>
+                 
+            </div>
+        </div>
+  </div>
+</div>
+
+
+<!-----------Projects------------------->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Banking.jpg">
+                <div class="layer">
+                    <h3>Simple Banking System using Java</h3>
+                    <p>The simple banking system is an application which maintains the banking records of the 
+                        customer. A computerized banking system is provided which reduces manual and paper 
+                        work. It provides an efficient and secured way for faster data entry, retrieval and data access</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--------CONTACT----------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope" style="color: #e63b7a;"></i>sainishithayamjala@gmail.com</p>
+                <p><i class="fa fa-phone-square"></i>9999977777</p>
+                <div class="social-icons"><br>
+                    <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+						   <a href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
+                           <a href="https://twitter.com/"><i class="fab fa-twitter-square"></i></a>
+						   <a href="https://www.linkedin.com/in/yanjala-sainishitha-124338251/"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <div>
+                    <a href="Portfolio/Resume_1.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea naem="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+     </div>
+</div>
+</div>
+<div class="copyright">
+<footer>
+   <p>Copyright © created by SAINISHITHA</p>
+</footer>
+</div>
+</div>
+
+
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+
+</script><script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+      sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+
+</script>    
+<script src="https://kit.fontawesome.com/8ceb11f307.js" crossorigin="anonymous"></script> 
+
+
+    </body>
+</html>
